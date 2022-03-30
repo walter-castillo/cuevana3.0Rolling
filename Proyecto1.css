@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-
-:root{
+:root {
     --color-fondo1: black;
     --color-fondo2: rgb(24, 25, 31);
     --color-letras1: #20dc49;
@@ -11,74 +10,78 @@
 }
 
 body {
-  background-color: var(--color-fondo1);
-  font-family: "Roboto", sans-serif;
-  padding-top: 55px;
+    background-color: var(--color-fondo1);
+    font-family: "Roboto", sans-serif;
+    padding-top: 55px;
 }
+
+
 /* NAVBAR ---------------------------------------------------------------------------------------------------------- */
 
 .navbar {
-  background-color: rgb(24, 25, 31) !important;
+    background-color: rgb(24, 25, 31) !important;
 }
 
 .navbar__logo {
-  width: 30px;
-  /* height: 24px; */
-  border-radius: 0 7px 0 7px;
+    width: 30px;
+    /* height: 24px; */
+    border-radius: 0 7px 0 7px;
 }
 
 .nav__icon {
-  color: #20dc49;
-  font-size: 0.8rem;
-  margin-right: 3px;
+    color: #20dc49;
+    font-size: 0.8rem;
+    margin-right: 3px;
 }
 
 .nav__form {
-  height: 35px;
-  margin: 0 20px;
+    height: 35px;
+    margin: 0 20px;
 }
 
 .nav__icon-search {
-  color: #20dc49;
+    color: #20dc49;
 }
+
 
 /* Modal Registro ---------------------------------------------------------------------------------------------------------- */
 
 .modal-content {
-  background-color: rgb(24, 25, 31);
+    background-color: rgb(24, 25, 31);
 }
 
 form {
-  color: hsl(0, 0%, 85%);
-  background-color: rgb(24, 25, 31);
+    color: hsl(0, 0%, 85%);
+    background-color: rgb(24, 25, 31);
 }
 
 form h3 {
-  border-bottom: solid 3px rgb(32 220 73);
+    border-bottom: solid 3px rgb(32 220 73);
 }
 
 .BotonRegister {
-  background-color: rgb(32 220 73);
+    background-color: rgb(32 220 73);
 }
 
 .LINK_SESION {
-  color: rgb(32 220 73);
+    color: rgb(32 220 73);
 }
+
 
 /* Offcanvas */
 
-.offcanvas{
-  background-color: rgb(24, 25, 31);
-  color: hsl(0, 0%, 85%);
-
+.offcanvas {
+    background-color: rgb(24, 25, 31);
+    color: hsl(0, 0%, 85%);
 }
 
 
 /* Carrusel  ----------------------------------------------------------------------------------------------------------*/
-.carousel-caption{
-  /* color: var(--color-letras1); */
-  color: #7e23a8;
-  text-shadow: 2px 2px 0px var(--color-letras1), 3px 3px 2px #eee;
+
+.carousel-caption {
+    /* color: var(--color-letras1); */
+    color: #7e23a8;
+    text-shadow: 2px 2px 0px var(--color-letras1), 3px 3px 2px #eee;
 }
 
 
@@ -127,7 +130,9 @@ form h3 {
     }
 }
 
+
 /* CONTACTO ---------------------------------------------------------------------------------------------- */
+
 
 /* inicio pagina contacto */
 
@@ -168,6 +173,7 @@ form h3 {
     -webkit-box-shadow: 5px -5px 43px 5px rgba(41, 222, 92, 0.81);
     -moz-box-shadow: 5px -5px 43px 5px rgba(41, 222, 92, 0.81);
 }
+
 @media (max-width: 550px) {
     .contacto {
         min-height: 80vh;
@@ -188,298 +194,317 @@ form h3 {
     }
 }
 
+
 /* fin pagina contacto */
 
+
 /* MAIN ---------------------------------------------------------------------------------------------------------- */
+
 main {
-  max-width: 1350px;
+    max-width: 1350px;
 }
 
 .secciones {
-  width: 69%;
-  background-color: var(--color-fondo2);
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.356);
+    width: 69%;
+    background-color: var(--color-fondo2);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.356);
 }
+
 
 /* Secciones 1,2 y 3 ---------------------------------------------------------------------------------------------------------- */
 
 .grid__container {
-  margin: 0;
-  width: 100%;
-  font-family: "roboto";
-  color: rgb(228, 228, 228);
-  overflow: auto;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 200px 200px;
-  gap: 5px;
+    margin: 0;
+    width: 100%;
+    font-family: "roboto";
+    color: rgb(228, 228, 228);
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 200px 200px;
+    gap: 5px;
 }
 
 .card_body {
-  display: inline-block;
-  width: 125px;
-  background-color: rgb(53, 51, 51);
-  border-radius: 5px;
-  margin: 10px;
-  border: 1px solid rgb(32 220 73);
-  overflow: hidden;
-  justify-self: center;
+    display: inline-block;
+    width: 125px;
+    background-color: rgb(53, 51, 51);
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid rgb(32 220 73);
+    overflow: hidden;
+    justify-self: center;
 }
+
 .card_body:hover {
-  transform: scale(1.1);
-  transition: all.2s;
+    transform: scale(1.1);
+    transition: all .2s;
 }
+
 .card_img {
-  height: 70%;
+    height: 70%;
 }
+
 img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
+
 .card_text {
-  display: flex;
-  height: 30%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 .card_text .tituloPeli {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--color-letras2);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-letras2);
 }
+
+
 /* Aside ---------------------------------------------------------------------------------------------------------- */
+
 aside {
-  width: 30%;
-  background-color: var(--color-fondo2);
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.356);
+    width: 30%;
+    background-color: var(--color-fondo2);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.356);
 }
 
 .card {
-  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.11);
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.11);
 }
 
 .bordePelis {
-  border-bottom: solid 3px var(--color-letras1);
-  color: var(--color-letras1);
+    border-bottom: solid 3px var(--color-letras1);
+    color: var(--color-letras1);
 }
+
 
 /* Generos Y Años ---------------------------------------------------------------------------------------------------------- */
 
 .CajaGeneroAño {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .filtro {
-  background-color: rgb(24, 25, 31);
-  padding: 5px;
-  text-align: start;
-  box-sizing: border-box;
-  width: 100%;
+    background-color: rgb(24, 25, 31);
+    padding: 5px;
+    text-align: start;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .filtro--title {
-  background-color: hsl(0, 0%, 0%);
-  /* height: 3rem; */
-  font-size: 1.3rem;
-  color: var(--color-letras1);
-  border-radius: 7px;
-  padding: 5px 5px 5px 20px;
+    background-color: hsl(0, 0%, 0%);
+    /* height: 3rem; */
+    font-size: 1.3rem;
+    color: var(--color-letras1);
+    border-radius: 7px;
+    padding: 5px 5px 5px 20px;
 }
 
 .filtro--content-item {
-  list-style: none;
-  font-size: 1rem;
-  color: #7d9092;
+    list-style: none;
+    font-size: 1rem;
+    color: #7d9092;
 }
 
 .filtro--content-item li {
-  margin-top: 0.8rem;
+    margin-top: 0.8rem;
 }
 
 .filtro__icon {
-  color: #20dc49;
-  font-size: 1rem;
-  /* margin-right: 1px; */
-  visibility: hidden;
-  transition: all 0.2s ease;
+    color: #20dc49;
+    font-size: 1rem;
+    /* margin-right: 1px; */
+    visibility: hidden;
+    transition: all 0.2s ease;
 }
 
 .filtro--content-item li:hover .filtro__icon {
-  visibility: visible;
-  margin-right: 0.2rem;
-  cursor: pointer;
+    visibility: visible;
+    margin-right: 0.2rem;
+    cursor: pointer;
 }
 
 .filtro--content-item li:hover {
-  color: #20dc49;
-  cursor: pointer;
+    color: #20dc49;
+    cursor: pointer;
 }
+
 
 /* FOOTER ---------------------------------------------------------------------------------------------------------- */
 
 .footer {
-  width: 100%;
-  height: auto;
-  background-color: rgb(24, 25, 31) !important;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, auto);
-  grid-template-areas: "column1 column2 column3";
-  align-content: center;
-  justify-items: center;
-  padding: 20px;
-  font-family: roboto, arial, helvetica, sans-serif;
-  box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 25, 31) !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "column1 column2 column3";
+    align-content: center;
+    justify-items: center;
+    padding: 20px;
+    font-family: roboto, arial, helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 .columns {
-  color: #20dc49;
-  text-align: center;
-  font-size: 1rem;
-  margin: auto;
+    color: #20dc49;
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
 }
 
 .column1 {
-  grid-area: column1;
+    grid-area: column1;
 }
 
 .column2 {
-  grid-area: column2;
+    grid-area: column2;
 }
 
 .column3 {
-  grid-area: column3;
+    grid-area: column3;
 }
 
 .footer i {
-  font-size: 2rem;
-  color: #20dc49;
-  cursor: pointer;
-  margin: 0.5rem;
+    font-size: 2rem;
+    color: #20dc49;
+    cursor: pointer;
+    margin: 0.5rem;
 }
 
 .column2 img {
-  width: 5rem;
-  border-radius: 0 10px 0 10px;
-  cursor: pointer;
+    width: 5rem;
+    border-radius: 0 10px 0 10px;
+    cursor: pointer;
 }
 
 .footer i:hover {
-  color: #a5e6b4;
-  transition: all 0.7s ease;
+    color: #a5e6b4;
+    transition: all 0.7s ease;
 }
+
 
 /* MEDIAS ----------------------------------------------------------------------------------------------------------*/
 
+
 /* MAIN ----------------------------------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 720px) {
-  .secciones,
-  aside {
-    width: 100%;
-  }
-
-  .filtro {
-    width: 50%;
-  }
-
-  .publicidad {
-    display: none;
-  }
+    .secciones,
+    aside {
+        width: 100%;
+    }
+    .filtro {
+        width: 50%;
+    }
+    .publicidad {
+        display: none;
+    }
 }
+
 
 /* MEDIAS SECCION 1,2 y 3 ----------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1320px) {
-  .grid__container {
-    grid-template-columns: repeat(5, 1fr);
-    /* grid-template-rows: 250px 250px 250px 250px; */
-    grid-template-rows: repeat(3, 220px);
-  }
+    .grid__container {
+        grid-template-columns: repeat(5, 1fr);
+        /* grid-template-rows: 250px 250px 250px 250px; */
+        grid-template-rows: repeat(3, 220px);
+    }
 }
 
 @media screen and (max-width: 1105px) {
-  .grid__container {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2px;
-  }
-  .card_body {
-    margin: 20px auto;
-  }
+    .grid__container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2px;
+    }
+    .card_body {
+        margin: 20px auto;
+    }
 }
+
 @media screen and (max-width: 830px) {
-  .grid__container {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-  }
+    .grid__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+    }
 }
 
 @media screen and (max-width: 720.5px) {
-  .grid__container {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-  }
+    .grid__container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1px;
+    }
 }
 
 @media screen and (max-width: 550px) {
-  .grid__container {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-  }
+    .grid__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+    }
 }
 
 @media screen and (max-width: 410px) {
-  .grid__container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
-  }
+    .grid__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+    }
 }
 
 @media screen and (max-width: 289px) {
-  .grid__container {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1px;
-  }
+    .grid__container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1px;
+    }
 }
+
 
 /* GENEROS Y AÑOS ----------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 450px) {
-  .filtro {
-    width: 100%;
-  }
+    .filtro {
+        width: 100%;
+    }
 }
+
 
 /* FOOTER ----------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 750px) {
-  .footer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas: "column1 column2" "column3 column3";
-  }
-  .column3 {
-    margin-top: 20px;
-  }
-  .column2 img {
-    width: 3rem;
-    border-radius: 0 10px 0 10px;
-    cursor: pointer;
-  }
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "column1 column2" "column3 column3";
+    }
+    .column3 {
+        margin-top: 20px;
+    }
+    .column2 img {
+        width: 3rem;
+        border-radius: 0 10px 0 10px;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 450px) {
-  .footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "column1 " "column2" " column3";
-  }
-  .column2 img {
-    width: 3rem;
-    border-radius: 0 10px 0 10px;
-    cursor: pointer;
-    margin: 30px auto;
-  }
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "column1 " "column2" " column3";
+    }
+    .column2 img {
+        width: 3rem;
+        border-radius: 0 10px 0 10px;
+        cursor: pointer;
+        margin: 30px auto;
+    }
 }
