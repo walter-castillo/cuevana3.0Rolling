@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 :root {
     --color-fondo1: black;
-    --color-fondo2: rgb(24, 25, 31);
+    --color-fondo2: #18191f;
     --color-letras1: #20dc49;
     --color-letras2: hsl(0, 0%, 90%);
     --color-cards: rgb(53, 51, 51);
@@ -153,12 +153,6 @@ form h3 {
     border-color: #20dc49 !important;
 }
 
-.btn-primary:focus {
-    background-color: hsl(133, 75%, 49%) !important;
-    border-color: #20dc49;
-    box-shadow: 0 0 0 0;
-}
-
 .contacto--button:hover {
     background-color: rgba(27, 241, 73, 0.918);
     border-color: #19e245;
@@ -166,6 +160,11 @@ form h3 {
     -webkit-box-shadow: 5px -5px 43px 5px rgba(41, 222, 92, 0.81);
     -moz-box-shadow: 5px -5px 43px 5px rgba(41, 222, 92, 0.81);
     transition: all 0.5s ease;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 @media (max-width: 550px) {
