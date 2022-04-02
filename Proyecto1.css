@@ -407,15 +407,6 @@ aside {
 }
 
 
-/* MEDIAS SECCION 1,2 y 3 ----------------------------------------------------------------------------------------------------------*/
-
-@media screen and (max-width: 1105px) {
-    .card_body {
-        margin: 20px auto;
-    }
-}
-
-
 /* GENEROS Y AÑOS ----------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 450px) {
@@ -425,7 +416,7 @@ aside {
 }
 
 
-/* FOOTER ----------------------------------------------------------------------------------------------------------*/
+/* FOOTER */
 
 @media (max-width: 750px) {
     .footer {
@@ -490,29 +481,7 @@ aside {
     top: 10px;
 }
 
-
-/* @media (max-width: 950px) {
-    body {
-        background: yellow;
-    }
-    #carouselExampleCaptions {
-        max-height: 30vh;
-        min-height: 28vh;
-        overflow: hidden;
-        margin: 8px 0;
-    }
-    #carouselExampleCaptions img {
-        min-height: 30vh;
-        object-fit: cover;
-        filter: brightness(75%);
-    }
-}
- */
-
 @media (max-width: 550px) {
-    body {
-        background: yellow;
-    }
     #carouselExampleCaptions {
         max-height: 18vh;
         min-height: 15vh;
