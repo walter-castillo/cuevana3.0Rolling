@@ -92,6 +92,26 @@ form h3 {
     justify-content: center;
 }
 
+.nos--card {
+    margin: 10px;
+    background-color: #141212;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #06f439;
+    position: relative;
+    transition: all .5s ease;
+}
+
+.nos--card:hover .capa {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nos--card:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 700px) {
     .nos--content-header {
         margin: auto;
@@ -471,6 +491,42 @@ aside {
 }
 
 
+/* @media (max-width: 950px) {
+    body {
+        background: yellow;
+    }
+    #carouselExampleCaptions {
+        max-height: 30vh;
+        min-height: 28vh;
+        overflow: hidden;
+        margin: 8px 0;
+    }
+    #carouselExampleCaptions img {
+        min-height: 30vh;
+        object-fit: cover;
+        filter: brightness(75%);
+    }
+}
+ */
+
+@media (max-width: 550px) {
+    body {
+        background: yellow;
+    }
+    #carouselExampleCaptions {
+        max-height: 18vh;
+        min-height: 15vh;
+        overflow: hidden;
+        margin: 8px 0;
+    }
+    #carouselExampleCaptions img {
+        min-height: 18vh;
+        object-fit: cover;
+        filter: brightness(75%);
+    }
+}
+
+
 /* documentales */
 
 .capa {
@@ -488,7 +544,7 @@ aside {
 .capa i {
     margin-top: 70%;
     font-size: 2.5rem;
-    color: #d32a2a;
+    color: #19e245;
     transition: all .3s ease;
 }
 
@@ -501,17 +557,20 @@ aside {
     opacity: 1;
 }
 
-.nos--card {
-    margin: 10px;
-    background-color: #141212;
-    color: white;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #19e245;
+.content--documental {
+    min-width: 6rem;
+    max-width: 6rem;
 }
 
-.nos--card:hover {
-    opacity: .4;
-    transform: scale(1.05);
-    transition: all .4s ease;
+.content--documental--img {
+    min-height: 8rem;
+    max-height: 8rem;
+}
+
+.content--documental--img p {
+    font-size: .9rem;
+}
+
+.card_body--section1-2-3 {
+    position: relative;
 }
