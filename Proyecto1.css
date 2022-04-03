@@ -469,7 +469,7 @@ aside {
 }
 
 #carouselExampleCaptions .carousel-caption {
-    top: 10px;
+    top: .5REMpx;
 }
 
 @media (max-width: 550px) {
